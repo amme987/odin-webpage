@@ -4,6 +4,7 @@ body {
 
 .hero {
   background-color: #1f2937;
+  padding: 8px 150px;
 }
 
 .header {
@@ -33,17 +34,40 @@ ul {
   display: flex;
   padding: 0;
   margin: 0 0 0 auto;
+  gap: 20px;
 }
 
 .content {
   display: flex;
+  padding: 50px 0;
 }
 
-.web-info, img {
+.web-info,
+img.rat {
   flex: 1;
+}
+
+.web-info {
+  padding-right: 100px;
+}
+
+img.rat {
+  height: auto;
+  width: 160px;
 }
 
 .text {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f8;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 30px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
 }
