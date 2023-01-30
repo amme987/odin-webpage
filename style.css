@@ -85,6 +85,7 @@ container {
   display: flex;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 80px;
 }
 
 container img {
@@ -95,4 +96,25 @@ container img {
 
 figcaption {
   text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 50px 150px;
+}
+
+.quote .text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.person {
+  text-align: right;
+  margin-top: -76px;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 150px;
 }
