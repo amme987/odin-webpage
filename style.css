@@ -65,9 +65,17 @@ img.rat {
 button {
   background-color: #3882f8;
   color: #e5e7eb;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 30px;
+}
+
+.content button {
+  background-color: #3882f8;
+  color: #e5e7eb;
   border: none;
   border-radius: 5px;
-  padding: 8px 30px;
   font-weight: bold;
   font-size: 18px;
   margin-top: 10px;
@@ -117,4 +125,34 @@ figcaption {
   font-weight: bold;
   font-size: 24px;
   padding-right: 150px;
+}
+
+.blue {
+  background-color: #3882f6;
+  display: flex;
+  margin: 80px 150px;
+  border-radius: 5px;
+  padding: 50px 150px;
+  justify-content: space-between;
+}
+
+/* .action {
+  display: flex;;
+  align-content: center;
+  flex-direction: column
+} */
+
+.blue p {
+  margin: 0;
+}
+
+.blue button {
+  border-color: #f9faf8;
+  border-style:solid;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
 }
